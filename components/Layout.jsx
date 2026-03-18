@@ -41,7 +41,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>DJOMATIN AHO Christian Blog</title>
         <meta name="description" content="DJOMATIN AHO Christian Blog - Blog de réflexion et de développement" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📝</text></svg>" />
       </Head>
       <motion.div className="scroll-progress" style={{ scaleX }} />
       <Header />

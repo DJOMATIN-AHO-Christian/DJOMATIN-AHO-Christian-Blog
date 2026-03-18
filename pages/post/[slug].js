@@ -56,7 +56,7 @@ const PostDetails = ({ post, categories, adjacentPosts, relatedPosts }) => {
           url: SITE_URL,
           logo: {
             '@type': 'ImageObject',
-            url: `${SITE_URL}/favicon.ico`,
+            url: 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">📝</text></svg>',
           },
         },
         isAccessibleForFree: true,

@@ -1,25 +1,29 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}', './sections/**/*.{js,ts,jsx,tsx}'],
   darkMode: 'class',
   theme: {
     extend: {
       colors: {
         notion: {
-          bg: '#FFFFFF',
+          bg: 'var(--notion-bg)',
           sidebar: '#F7F7F5',
-          text: '#37352F',
-          secondary: '#787774',
-          border: '#EDEDED',
-          hover: '#EFEFEF',
-          blue: { light: '#E7F3F8', DEFAULT: '#0B6E99' },
-          pink: { light: '#F5E0E9', DEFAULT: '#AD1A72' },
-          green: { light: '#EDF3EC', DEFAULT: '#1C773D' },
-          yellow: { light: '#FBF3DB', DEFAULT: '#89632A' },
-          purple: { light: '#F1F0F5', DEFAULT: '#6931A5' },
-        }
+          text: 'var(--notion-text)',
+          secondary: 'var(--notion-secondary)',
+          border: 'var(--notion-border)',
+          hover: 'var(--notion-hover)',
+          card: 'var(--notion-card-bg)',
+          blue: { light: '#E7F3F8', DEFAULT: 'var(--notion-blue)' },
+          pink: { light: '#F5E0E9', DEFAULT: 'var(--notion-pink)' },
+          green: { light: '#EDF3EC', DEFAULT: 'var(--notion-green)' },
+          yellow: { light: '#FBF3DB', DEFAULT: 'var(--notion-yellow)' },
+          purple: { light: '#F1F0F5', DEFAULT: 'var(--notion-purple)' },
+          orange: { DEFAULT: 'var(--notion-orange)' },
+          red: { DEFAULT: 'var(--notion-red)' },
+          gray: { DEFAULT: 'var(--notion-gray)' },
+        },
       },
       fontFamily: {
-        notion: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Helvetica', 'Apple Color Emoji', 'Arial', 'sans-serif'],
+        notion: ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'SF Pro Text', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
       },
       fontWeight: {
         normal: '400',
@@ -27,14 +31,12 @@ module.exports = {
         semibold: '600',
         bold: '700',
       },
-
-
       spacing: {
         '2/3': '66.666667%',
       },
       backdropBlur: {
         xs: '2px',
-      }
+      },
     },
   },
   variants: {
@@ -42,4 +44,3 @@ module.exports = {
   },
   plugins: [],
 };
-

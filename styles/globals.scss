@@ -73,6 +73,20 @@
   z-index: 1000;
 }
 
+/* Dark Mode Orange Accents */
+.dark h1 {
+  color: #ff9f43;
+}
+
+.dark h2,
+.dark h3 {
+  color: #ffffff;
+}
+
+.dark a:hover {
+  color: #ff9f43;
+}
+
 html,
 body {
   padding: 0;

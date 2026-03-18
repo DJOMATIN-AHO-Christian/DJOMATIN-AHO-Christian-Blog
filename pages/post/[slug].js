@@ -29,56 +29,56 @@ const PostDetails = ({ post, categories, adjacentPosts, relatedPosts }) => {
       {
         '@type': 'Article',
         '@id': `${postUrl}/#article`,
-        'url': postUrl,
-        'headline': post.title,
-        'description': post.excerpt,
-        'datePublished': post.createdAt,
-        'dateModified': post.createdAt,
-        'image': post.featuredImage?.url,
-        'inLanguage': 'fr',
-        'mainEntityOfPage': {
+        url: postUrl,
+        headline: post.title,
+        description: post.excerpt,
+        datePublished: post.createdAt,
+        dateModified: post.createdAt,
+        image: post.featuredImage?.url,
+        inLanguage: 'fr',
+        mainEntityOfPage: {
           '@type': 'WebPage',
           '@id': postUrl,
         },
-        'author': {
+        author: {
           '@type': 'Person',
           '@id': `${SITE_URL}/#author`,
-          'name': post.author?.name || 'DJOMATIN AHO Christian',
-          'image': post.author?.photo?.url,
-          'url': SITE_URL,
-          'sameAs': [
-            `https://github.com/DJOMATIN-AHO-Christian`,
+          name: post.author?.name || 'DJOMATIN AHO Christian',
+          image: post.author?.photo?.url,
+          url: SITE_URL,
+          sameAs: [
+            'https://github.com/DJOMATIN-AHO-Christian',
           ],
         },
-        'publisher': {
+        publisher: {
           '@type': 'Organization',
-          'name': 'DJOMATIN AHO Christian Blog',
-          'url': SITE_URL,
-          'logo': {
+          name: 'DJOMATIN AHO Christian Blog',
+          url: SITE_URL,
+          logo: {
             '@type': 'ImageObject',
-            'url': `${SITE_URL}/favicon.ico`,
+            url: `${SITE_URL}/favicon.ico`,
           },
         },
-        'isAccessibleForFree': true,
-        'speakable': {
+        isAccessibleForFree: true,
+        speakable: {
           '@type': 'SpeakableSpecification',
-          'cssSelector': ['.notion-content', 'h1'],
+          cssSelector: ['.notion-content', 'h1'],
         },
       },
       {
         '@type': 'BreadcrumbList',
-        'itemListElement': [
+        itemListElement: [
           {
             '@type': 'ListItem',
-            'position': 1,
-            'name': 'Accueil',
-            'item': SITE_URL,
+            position: 1,
+            name: 'Accueil',
+            item: SITE_URL,
           },
           {
             '@type': 'ListItem',
-            'position': 2,
-            'name': post.title,
-            'item': postUrl,
+            position: 2,
+            name: post.title,
+            item: postUrl,
           },
         ],
       },
@@ -167,7 +167,6 @@ export async function getStaticProps({ params }) {
   };
 }
 
-// Specify dynamic routes to pre-render pages based on data.
 export async function getStaticPaths() {
   const posts = await getPosts();
   return {

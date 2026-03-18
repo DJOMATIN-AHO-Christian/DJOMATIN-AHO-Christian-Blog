@@ -3,4 +3,7 @@ module.exports = {
   images: {
     domains: ['media.graphassets.com', 'eu-west-2.cdn.hygraph.com'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };

@@ -12,26 +12,26 @@ export default function Home({ posts, featuredPosts, categories, recentPosts }) 
       {
         '@type': 'WebSite',
         '@id': `${SITE_URL}/#website`,
-        'url': SITE_URL,
-        'name': 'DJOMATIN AHO Christian Blog',
-        'description': 'Blog personnel de DJOMATIN AHO Christian — articles sur la technologie, le développement web, l\'IA et l\'innovation numérique.',
-        'publisher': {
+        url: SITE_URL,
+        name: 'DJOMATIN AHO Christian Blog',
+        description: 'Blog personnel de DJOMATIN AHO Christian — articles sur la technologie, le développement web, l\'IA et l\'innovation numérique.',
+        publisher: {
           '@type': 'Person',
-          'name': 'DJOMATIN AHO Christian',
+          name: 'DJOMATIN AHO Christian',
         },
-        'inLanguage': 'fr',
+        inLanguage: 'fr',
       },
       {
         '@type': 'Blog',
         '@id': `${SITE_URL}/#blog`,
-        'url': SITE_URL,
-        'name': 'DJOMATIN AHO Christian Blog',
-        'description': 'Articles et tutoriels sur le développement web, l\'intelligence artificielle et les technologies modernes.',
-        'author': {
+        url: SITE_URL,
+        name: 'DJOMATIN AHO Christian Blog',
+        description: 'Articles et tutoriels sur le développement web, l\'intelligence artificielle et les technologies modernes.',
+        author: {
           '@type': 'Person',
-          'name': 'DJOMATIN AHO Christian',
+          name: 'DJOMATIN AHO Christian',
         },
-        'inLanguage': 'fr',
+        inLanguage: 'fr',
       },
     ],
   };
@@ -39,14 +39,14 @@ export default function Home({ posts, featuredPosts, categories, recentPosts }) 
   return (
     <>
       <Head>
-        <title>DJOMATIN AHO Christian Blog — Technologie, Développement & IA</title>
+        <title>DJOMATIN AHO Christian Blog — Technologie, Développement et IA</title>
         <meta name="description" content="Blog personnel de DJOMATIN AHO Christian. Découvrez des articles sur le développement web, l'intelligence artificielle, le machine learning et les dernières innovations technologiques." />
         <link rel="canonical" href={SITE_URL} />
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={SITE_URL} />
-        <meta property="og:title" content="DJOMATIN AHO Christian Blog — Technologie, Développement & IA" />
+        <meta property="og:title" content="DJOMATIN AHO Christian Blog — Technologie, Développement et IA" />
         <meta property="og:description" content="Blog personnel de DJOMATIN AHO Christian. Articles sur le développement web, l'IA et l'innovation numérique." />
         <meta property="og:site_name" content="DJOMATIN AHO Christian Blog" />
         <meta property="og:locale" content="fr_FR" />
@@ -55,9 +55,6 @@ export default function Home({ posts, featuredPosts, categories, recentPosts }) 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="DJOMATIN AHO Christian Blog" />
         <meta name="twitter:description" content="Articles sur le développement web, l'IA et l'innovation numérique par DJOMATIN AHO Christian." />
-
-        {/* AEO: Speakable for voice assistants */}
-        <meta name="speakable" content="true" />
 
         {/* JSON-LD Structured Data (SEO + GEO) */}
         <script

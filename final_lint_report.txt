@@ -1,0 +1,9 @@
+info  - Loaded env from C:\Users\hp\.gemini\antigravity\scratch\project_graphql_blog-main\.env.production
+info  - Loaded env from C:\Users\hp\.gemini\antigravity\scratch\project_graphql_blog-main\.env
+info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+warn  - The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
+
+./components/AdjacentPostCard.jsx
+19:1  Error: This line has a length of 266. Maximum allowed is 250.  max-len
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules

@@ -1,0 +1,27 @@
+info  - Loaded env from C:\Users\hp\.gemini\antigravity\scratch\project_graphql_blog-main\.env.production
+info  - Loaded env from C:\Users\hp\.gemini\antigravity\scratch\project_graphql_blog-main\.env
+info  - Using webpack 5. Reason: Enabled by default https://nextjs.org/docs/messages/webpack5
+warn  - The Next.js plugin was not detected in your ESLint configuration. See https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
+
+./components/AdjacentPostCard.jsx
+18:1  Error: This line has a length of 270. Maximum allowed is 250.  max-len
+
+./components/CommentsForm.jsx
+6:10  Error: 'localStorage' is assigned a value but never used.  no-unused-vars
+
+./components/FeaturedPostCard.jsx
+7:40  Error: Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.  arrow-body-style
+
+./components/Layout.jsx
+14:9  Error: Do not use 'new' for side effects.  no-new
+20:37  Error: Missing trailing comma.  comma-dangle
+
+./components/PostCard.jsx
+9:32  Error: Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`.  arrow-body-style
+18:1  Error: This line has a length of 262. Maximum allowed is 250.  max-len
+38:15  Error: The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+./components/PostWidget.jsx
+56:17  Error: The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules

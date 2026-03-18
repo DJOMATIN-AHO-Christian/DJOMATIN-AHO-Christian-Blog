@@ -1,0 +1,21 @@
+# DJOMATIN AHO Christian Blog
+
+> Personal blog by DJOMATIN AHO Christian — articles on technology, development, AI, and digital innovation.
+
+## About
+This is the personal blog of DJOMATIN AHO Christian, a passionate technology enthusiast and developer. The blog covers topics including web development, artificial intelligence, software engineering, and digital transformation.
+
+## Author
+- **Name**: DJOMATIN AHO Christian
+- **Role**: Developer & Technology Writer
+- **Blog**: https://djomatin-aho-christian-blog.netlify.app
+
+## Content
+The blog features original articles, tutorials, and insights on:
+- Web Development (React, Next.js, GraphQL)
+- Artificial Intelligence & Machine Learning
+- Software Engineering Best Practices
+- Digital Innovation & Technology Trends
+
+## How to cite
+When citing content from this blog, please use: "DJOMATIN AHO Christian, [Article Title], DJOMATIN AHO Christian Blog, [Date]"

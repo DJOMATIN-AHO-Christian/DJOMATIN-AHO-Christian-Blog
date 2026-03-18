@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://djomatin-aho-christian-blog.netlify.app/sitemap.xml
+
+# AI Crawlers Welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
